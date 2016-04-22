@@ -1,0 +1,89 @@
+@font-face {font-family: 'futura';src: url('/futura.ttf') format('truetype');}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-family: 'futura';
+	font-size: 45px;
+	width: 100%;
+	position: absolute;
+	background: #fff;
+	margin: 0;
+	padding: 18px 0 18px 0;
+	color: #000;
+	top: 30px;
+}
+
+p {
+	font-family: 'Times New Roman', serif;
+}
+
+.stairs {
+	float: left;
+	width: 50%;
+}
+
+.stairs video, .stairs img {
+    width: 100%;
+}
+
+.main {
+	width: 100%;
+}
+
+.column {
+	width: 33%;
+	float: left;
+}
+
+.column img {
+	width: 152%;
+}
+
+.two-thirds .tower {
+	width: 67%;
+	float: right;
+}
+
+.double video {
+	width: 50%;
+	float: left;
+}
+
+.double img {
+	width: 50%;
+	float: left;
+}
+
+img.tower {
+	/*width: 68%;*/
+	flex-grow: 2;
+}
+
+.visible {
+	/*border: 10px solid green;*/
+}
+
+.half-width {
+	width: 100%;
+}
+
+.cut-off {
+	height: 286px;
+	overflow: hidden;
+}
+
+.upside-down {
+    transform: rotateX(180deg);
+    -webkit-transform:rotateX(180deg); /* Safari and Chrome */
+    -moz-transform:rotateX(180deg); /* Firefox */
+}
+
+.mirror {
+    transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+    -moz-transform:rotateY(180deg); /* Firefox */
+}
